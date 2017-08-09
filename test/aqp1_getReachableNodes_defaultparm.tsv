@@ -1,0 +1,5 @@
+id	label	categories
+MonarchData:ncbigene.ttl		[]
+CHR:9606chr7p14.3		[]
+NCBITaxon:9606	Homo sapiens	[]
+SO:0001217	protein_coding_gene	[gene, sequence feature]

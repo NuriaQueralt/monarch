@@ -1,0 +1,1214 @@
+{
+    "associations": [
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/610661.0004-610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25990"
+                    },
+                    {
+                        "obj": "OMIM:610661.0004",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25990",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-GM25990"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0005"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0004"
+                    },
+                    {
+                        "obj": "OMIM:610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/610661.0004-610661.0005",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-GM25990",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25990",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T) [GM25990]"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0005",
+                        "lbl": "NGLY1, ARG542TER"
+                    },
+                    {
+                        "id": "OMIM:610661.0004",
+                        "lbl": "NGLY1, 3-BP DEL, 1205TTC"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "005099b2-7ca9-4c41-a93d-20e02a43c9e7",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-GM25990",
+                "label": "affected female proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/genoGM25347",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3200-1"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25347"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3200-1",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25347"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/genoGM25347",
+                        "lbl": "NGLY1(ARG401TER) [GM25347]"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3200-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0002",
+                        "lbl": "NGLY1(ARG401TER)"
+                    },
+                    {
+                        "id": "Coriell:GM25347",
+                        "lbl": "NIGMS-GM25347"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "e758883e-b6aa-46a1-a386-0e1f85539cad",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3200-1",
+                "label": "affected male proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "OMIM:610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0003"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3213-1",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25389"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0003"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25389",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3213-1"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25389"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/610661.0003",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3213-1",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25389",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER) [GM25389]"
+                    },
+                    {
+                        "id": "Coriell:GM25389",
+                        "lbl": "NIGMS-GM25389"
+                    },
+                    {
+                        "id": "OMIM:610661.0003",
+                        "lbl": "NGLY1, 1-BP DUP, 1370G"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "a9fa7673-df2a-4c2d-b4a5-0762fbef239d",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3213-1",
+                "label": "affected female proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0001"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0001-610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25340"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3199-1",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25340"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25340",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3199-1"
+                    },
+                    {
+                        "obj": "OMIM:610661.0001",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "Coriell:GM25340",
+                        "lbl": "NIGMS-GM25340"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3199-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25340",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC) [GM25340]"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0001-610661.0002",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC)"
+                    },
+                    {
+                        "id": "OMIM:610661.0001",
+                        "lbl": "NGLY1, 1-BP DEL, 1891C"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "d26f2779-04c4-4614-836b-c88da38af258",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3199-1",
+                "label": "affected male proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/610661.0004-610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25990"
+                    },
+                    {
+                        "obj": "OMIM:610661.0004",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-GM25990",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25990"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25990",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-GM25990"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0005"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0004"
+                    },
+                    {
+                        "obj": "OMIM:610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/610661.0004-610661.0005",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-GM25990",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25990",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T) [GM25990]"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0005",
+                        "lbl": "NGLY1, ARG542TER"
+                    },
+                    {
+                        "id": "OMIM:610661.0004",
+                        "lbl": "NGLY1, 3-BP DEL, 1205TTC"
+                    },
+                    {
+                        "id": "Coriell:GM25990",
+                        "lbl": "NIGMS-GM25990"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "1550dd15-3d25-40d7-883f-9f14fc2c554b",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-GM25990",
+                "label": "affected female proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0001"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0001-610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25340"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25340",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3199-1"
+                    },
+                    {
+                        "obj": "OMIM:610661.0001",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/person-3199-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25340",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC) [GM25340]"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0001-610661.0002",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC)"
+                    },
+                    {
+                        "id": "OMIM:610661.0001",
+                        "lbl": "NGLY1, 1-BP DEL, 1891C"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "59bfb0cb-4409-43f8-8ea8-9f9757b1b82c",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3199-1",
+                "label": "affected male proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "OMIM:610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0003"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0003"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25389",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3213-1"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25389"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/610661.0003",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3213-1",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25389",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER) [GM25389]"
+                    },
+                    {
+                        "id": "OMIM:610661.0003",
+                        "lbl": "NGLY1, 1-BP DUP, 1370G"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "1f5e9f3a-6117-498f-97fc-0b8b0f8bba46",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3213-1",
+                "label": "affected female proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/genoGM25347",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3200-1"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25347"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/genoGM25347",
+                        "lbl": "NGLY1(ARG401TER) [GM25347]"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3200-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0002",
+                        "lbl": "NGLY1(ARG401TER)"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "08502254-d698-46c2-88fa-11698286b968",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": ":.well-known/genid/person-3200-1",
+                "label": "affected male proband with Congenital disorder of deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/610661.0004-610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25990"
+                    },
+                    {
+                        "obj": "OMIM:610661.0004",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-GM25990",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25990"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25990",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-GM25990"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0005"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0004"
+                    },
+                    {
+                        "obj": "OMIM:610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/610661.0004-610661.0005",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-GM25990",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25990",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T) [GM25990]"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0005",
+                        "lbl": "NGLY1, ARG542TER"
+                    },
+                    {
+                        "id": "Coriell:GM25990",
+                        "lbl": "NIGMS-GM25990"
+                    },
+                    {
+                        "id": "OMIM:610661.0004",
+                        "lbl": "NGLY1, 3-BP DEL, 1205TTC"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "334263c1-0893-4399-a3d7-e0d0115b66ed",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "Coriell:GM25990",
+                "label": "NIGMS-GM25990",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0001"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0001-610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25340"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3199-1",
+                        "pred": "RO:0001000",
+                        "sub": "Coriell:GM25340"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25340",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3199-1"
+                    },
+                    {
+                        "obj": "OMIM:610661.0001",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "Coriell:GM25340",
+                        "lbl": "NIGMS-GM25340"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3199-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25340",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC) [GM25340]"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0001-610661.0002",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC)"
+                    },
+                    {
+                        "id": "OMIM:610661.0001",
+                        "lbl": "NGLY1, 1-BP DEL, 1891C"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "10d0e7ce-8312-47a3-9922-a24d30930a0e",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "Coriell:GM25340",
+                "label": "NIGMS-GM25340",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        }
+    ],
+    "compact_associations": null,
+    "facet_counts": {
+        "object_closure": {
+            "BFO:0000001": 127,
+            "BFO:0000002": 127,
+            "BFO:0000031": 127,
+            "ENSEMBL:ENSG00000151092": 127,
+            "GENO:0000014": 127,
+            "GENO:0000701": 127,
+            "HGNC:17646": 127,
+            "KEGG-hsa:55768": 127,
+            "NCBIGene:55768": 127,
+            "OMIM:610661": 127,
+            "SO:0000001": 127,
+            "SO:0000110": 127,
+            "SO:0000704": 127,
+            "SO:0001217": 127,
+            "SO:0001411": 127,
+            "owl:Thing": 127
+        },
+        "subject_taxon_label": {
+            "Anolis carolinensis": 1,
+            "Arabidopsis thaliana": 1,
+            "Bos taurus": 1,
+            "Caenorhabditis elegans": 1,
+            "Canis lupus familiaris": 1,
+            "Danio rerio": 1,
+            "Drosophila melanogaster": 1,
+            "Equus caballus": 1,
+            "Homo sapiens": 49,
+            "Macaca mulatta": 1,
+            "Monodelphis domestica": 1,
+            "Mus musculus": 1,
+            "Pan troglodytes": 1,
+            "Rattus norvegicus": 1,
+            "Sus scrofa": 1
+        }
+    },
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": null,
+    "start": null
+}

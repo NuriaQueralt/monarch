@@ -1,0 +1,20 @@
+anatomy_id	item	itemLabel	altLabel	itemDesc
+UBERON:0000007	Q156871	pituitary gland	hypophysis	endocrine gland
+UBERON:0000014	Q30029801	zone of skin		NA
+UBERON:0000074	Q909882	glomerulus		NA
+UBERON:0000167	Q27042858	cavity of mouth		NA
+UBERON:0000922	Q33196	embryo		NA
+UBERON:0000945	Q1029907	stomach		NA
+UBERON:0001103	Q9654	thoracic diaphragm	diaphragm|diaphragm muscle|respiratory diaphragm	sheet of internal skeletal muscle
+UBERON:0001166	Q290248	Pylorus		NA
+UBERON:0001264	Q9618	pancreas		NA
+UBERON:0001304	Q1635319	Germinal epithelium		NA
+UBERON:0001723	Q9614	tongue		NA
+UBERON:0002358	Q9629	peritoneum	peritoneal cavity mesothelium	serous membrane that forms the lining of the abdominal cavity or the coelom—it covers most of the intra-abdominal (or coelomic) organs—in amniotes and some invertebrates
+UBERON:0004358	Q30015791	caput epididymis		NA
+UBERON:0004359	Q30015794	corpus epididymis		NA
+UBERON:0004736	Q30030409	metanephric glomerulus		NA
+UBERON:0004801	Q30030467	cervix epithelium		NA
+UBERON:0007371	Q30030505	superior surface of tongue		NA
+UBERON:0007616	Q30030529	layer of synovial tissue		NA
+UBERON:0011876	Q30030569	body of tongue		NA

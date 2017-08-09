@@ -1,0 +1,1478 @@
+{
+    "associations": [
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:173028",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:173028",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:4b07d9439a590f8c626da2a772185e26d1d545ea"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:4b07d9439a590f8c626da2a772185e26d1d545ea"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:4b07d9439a590f8c626da2a772185e26d1d545ea"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:4b07d9439a590f8c626da2a772185e26d1d545ea",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "NCBIGene:173028",
+                        "lbl": "png-1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "219116e0-af5b-4f4a-9f2f-420db0e56f29",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:173028",
+                "label": "png-1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:6239",
+                    "label": "Caenorhabditis elegans"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:361014",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:e83552d071c1dde2491b26da0373fdab0942349e"
+                    },
+                    {
+                        "obj": "NCBIGene:361014",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:e83552d071c1dde2491b26da0373fdab0942349e"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:e83552d071c1dde2491b26da0373fdab0942349e"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:361014",
+                        "lbl": "Ngly1"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:e83552d071c1dde2491b26da0373fdab0942349e",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "0871bc2a-264b-487b-bfc5-0e78c346f788",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:361014",
+                "label": "Ngly1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:10116",
+                    "label": "Rattus norvegicus"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:533736",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:533736",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:beb9b23a2a05ec412502c1469257a0d2431b34dc"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:beb9b23a2a05ec412502c1469257a0d2431b34dc"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:beb9b23a2a05ec412502c1469257a0d2431b34dc"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:beb9b23a2a05ec412502c1469257a0d2431b34dc",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    },
+                    {
+                        "id": "NCBIGene:533736",
+                        "lbl": "NGLY1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "9bcd5d75-efe6-481f-abc9-d5cf3d139079",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:533736",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9913",
+                    "label": "Bos taurus"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "RO:HOM0000017",
+                        "sub": "NCBIGene:553627"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:1763638529419199fbd9b5a8101857188aa9bec7"
+                    },
+                    {
+                        "obj": "NCBIGene:553627",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:51971e5c38cf4812c9dde9e229685884bc656e04"
+                    },
+                    {
+                        "obj": "ZFIN:ZDB-PUB-030905-1",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:51971e5c38cf4812c9dde9e229685884bc656e04"
+                    },
+                    {
+                        "obj": "NCBIGene:553627",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:1763638529419199fbd9b5a8101857188aa9bec7"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:51971e5c38cf4812c9dde9e229685884bc656e04"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:1763638529419199fbd9b5a8101857188aa9bec7"
+                    },
+                    {
+                        "obj": "ECO:0000031",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:51971e5c38cf4812c9dde9e229685884bc656e04"
+                    },
+                    {
+                        "obj": "NCBIGene:553627",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:51971e5c38cf4812c9dde9e229685884bc656e04",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:553627",
+                        "lbl": "ngly1"
+                    },
+                    {
+                        "id": "MONARCH:1763638529419199fbd9b5a8101857188aa9bec7",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ZFIN:ZDB-PUB-030905-1",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000031",
+                        "lbl": "protein BLAST evidence used in manual assertion"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "a253b355-3161-47c8-a3fc-4e41156035dc",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:553627",
+                "label": "ngly1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:7955",
+                    "label": "Danio rerio"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl",
+                "http://data.monarchinitiative.org/ttl/zfin.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "ZFIN:ZDB-PUB-030905-1",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000017",
+                "label": "in orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:100059456",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:3b63d6806cb81fb8399fecf8ee05f271026cfacc"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:3b63d6806cb81fb8399fecf8ee05f271026cfacc"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:3b63d6806cb81fb8399fecf8ee05f271026cfacc"
+                    },
+                    {
+                        "obj": "NCBIGene:100059456",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:3b63d6806cb81fb8399fecf8ee05f271026cfacc",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:100059456",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "722602b1-4343-43da-b80e-abcdb87e3601",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:100059456",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9796",
+                    "label": "Equus caballus"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:5e83c9ec8ac67336b797d576de9b1a766d0bdabc"
+                    },
+                    {
+                        "obj": "FlyBase:FBgn0033050",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:5e83c9ec8ac67336b797d576de9b1a766d0bdabc"
+                    },
+                    {
+                        "obj": "FlyBase:FBgn0033050",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:5e83c9ec8ac67336b797d576de9b1a766d0bdabc"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:5e83c9ec8ac67336b797d576de9b1a766d0bdabc",
+                        "lbl": null
+                    },
+                    {
+                        "id": "FlyBase:FBgn0033050",
+                        "lbl": "Pngl"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "5f59450e-3ab8-40e2-85be-9afe6699b5fd",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "FlyBase:FBgn0033050",
+                "label": "Pngl",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:7227",
+                    "label": "Drosophila melanogaster"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:4043cfcdd1feff99d098e72a2a3c1e2a0274e3ce"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:4043cfcdd1feff99d098e72a2a3c1e2a0274e3ce"
+                    },
+                    {
+                        "obj": "NCBIGene:100682555",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:100682555",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:4043cfcdd1feff99d098e72a2a3c1e2a0274e3ce"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:100682555",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    },
+                    {
+                        "id": "MONARCH:4043cfcdd1feff99d098e72a2a3c1e2a0274e3ce",
+                        "lbl": null
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "531805a8-19b1-4112-8edf-9b354348783f",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:100682555",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9615",
+                    "label": "Canis lupus familiaris"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:cab82ccade2b10d8dbc4489913f81a33348fa29f"
+                    },
+                    {
+                        "obj": "NCBIGene:460233",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:cab82ccade2b10d8dbc4489913f81a33348fa29f"
+                    },
+                    {
+                        "obj": "NCBIGene:460233",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:cab82ccade2b10d8dbc4489913f81a33348fa29f"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:460233",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:cab82ccade2b10d8dbc4489913f81a33348fa29f",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "e65186ca-712b-4751-a96a-4831b775d13c",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:460233",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9598",
+                    "label": "Pan troglodytes"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:163ecb09cc857effc23b08ce3eeb16bd4dd8155a"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:163ecb09cc857effc23b08ce3eeb16bd4dd8155a"
+                    },
+                    {
+                        "obj": "NCBIGene:700842",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:700842",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:163ecb09cc857effc23b08ce3eeb16bd4dd8155a"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:700842",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:163ecb09cc857effc23b08ce3eeb16bd4dd8155a",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "2a75929f-30e1-41d2-bc5e-946d9594e95d",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:700842",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9544",
+                    "label": "Macaca mulatta"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:1f072532d0deaf7f61e1cab3dad5f0e92920985f"
+                    },
+                    {
+                        "obj": "NCBIGene:835019",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:1f072532d0deaf7f61e1cab3dad5f0e92920985f"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:1f072532d0deaf7f61e1cab3dad5f0e92920985f"
+                    },
+                    {
+                        "obj": "NCBIGene:835019",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:1f072532d0deaf7f61e1cab3dad5f0e92920985f",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:835019",
+                        "lbl": "PNG1"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "7c1c73e8-70ee-48e7-86a5-66d362788e66",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:835019",
+                "label": "PNG1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:3702",
+                    "label": "Arabidopsis thaliana"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:100522951",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:84b464c6e450fc9f045487b56e90096d695d5eee"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:84b464c6e450fc9f045487b56e90096d695d5eee"
+                    },
+                    {
+                        "obj": "NCBIGene:100522951",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:84b464c6e450fc9f045487b56e90096d695d5eee"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:84b464c6e450fc9f045487b56e90096d695d5eee",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "NCBIGene:100522951",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "5cda84e6-5bcc-444c-a8fd-7a38a4e517ab",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:100522951",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9823",
+                    "label": "Sus scrofa"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "MGI:1913276",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:a682ac670c050ae1b49607cf569be7391d8944ba"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:a682ac670c050ae1b49607cf569be7391d8944ba"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:a682ac670c050ae1b49607cf569be7391d8944ba"
+                    },
+                    {
+                        "obj": "MGI:1913276",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:a682ac670c050ae1b49607cf569be7391d8944ba",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    },
+                    {
+                        "id": "MGI:1913276",
+                        "lbl": "Ngly1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "eda1cb36-0e57-496d-a10d-a8ce71b013e7",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "MGI:1913276",
+                "label": "Ngly1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:10090",
+                    "label": "Mus musculus"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:471754c563cddab58acd480692cb148fa01e845b"
+                    },
+                    {
+                        "obj": "NCBIGene:100031666",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:100031666",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:471754c563cddab58acd480692cb148fa01e845b"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:471754c563cddab58acd480692cb148fa01e845b"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "NCBIGene:100031666",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:471754c563cddab58acd480692cb148fa01e845b",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "d3695744-0e9c-4156-b796-fb70761c2b04",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:100031666",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:13616",
+                    "label": "Monodelphis domestica"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:100562703",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:d5073b05c773d8dbae2248daff84d29fc8b5421c"
+                    },
+                    {
+                        "obj": "NCBIGene:100562703",
+                        "pred": "RO:HOM0000020",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:d5073b05c773d8dbae2248daff84d29fc8b5421c"
+                    },
+                    {
+                        "obj": "ECO:0000080",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:d5073b05c773d8dbae2248daff84d29fc8b5421c"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:d5073b05c773d8dbae2248daff84d29fc8b5421c",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "NCBIGene:100562703",
+                        "lbl": "ngly1"
+                    },
+                    {
+                        "id": "ECO:0000080",
+                        "lbl": "phylogenetic evidence"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "8995529a-1617-4cb1-94b1-b7c94be00a33",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:100562703",
+                "label": "ngly1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:28377",
+                    "label": "Anolis carolinensis"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/panther.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:HOM0000020",
+                "label": "in 1 to 1 orthology relationship with",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        }
+    ],
+    "compact_associations": null,
+    "facet_counts": {
+        "object_closure": {
+            "BFO:0000001": 14,
+            "BFO:0000002": 14,
+            "BFO:0000031": 14,
+            "ENSEMBL:ENSACAG00000008852": 1,
+            "ENSEMBL:ENSBTAG00000003793": 1,
+            "ENSEMBL:ENSCAFG00000005682": 1,
+            "ENSEMBL:ENSDARG00000003205": 1,
+            "ENSEMBL:ENSECAG00000023123": 1,
+            "ENSEMBL:ENSMMUG00000014790": 1,
+            "ENSEMBL:ENSMODG00000014961": 1,
+            "ENSEMBL:ENSMUSG00000021785": 1,
+            "ENSEMBL:ENSPTRG00000014700": 1,
+            "ENSEMBL:ENSRNOG00000006143": 1,
+            "ENSEMBL:ENSSSCG00000011214": 1,
+            "ENSEMBL:FBgn0033050": 1,
+            "ENSEMBL:WBGene00010160": 1,
+            "FlyBase:FBgn0033050": 1,
+            "GENO:0000014": 14,
+            "GENO:0000701": 14,
+            "SO:0000001": 14,
+            "SO:0000110": 14,
+            "SO:0000704": 14,
+            "SO:0001217": 14,
+            "SO:0001411": 14,
+            "owl:Thing": 14
+        },
+        "subject_taxon_label": {
+            "Homo sapiens": 14
+        }
+    },
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": [
+        "FlyBase:FBgn0033050",
+        "MGI:1913276",
+        "NCBIGene:100031666",
+        "NCBIGene:100059456",
+        "NCBIGene:100522951",
+        "NCBIGene:100562703",
+        "NCBIGene:100682555",
+        "NCBIGene:173028",
+        "NCBIGene:361014",
+        "NCBIGene:460233",
+        "NCBIGene:533736",
+        "NCBIGene:553627",
+        "NCBIGene:700842",
+        "NCBIGene:835019"
+    ],
+    "start": null
+}

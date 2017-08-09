@@ -1,0 +1,4 @@
+node_queried_id	node_queried_label	relation_id	relation_label	node_associated_id	node_associated_label
+NCBIGene:55768	NGLY1	RO:0002331	involved in	REACT:R-HSA-532668	N-glycan trimming in the ER and Calnexin/Calreticulin cycle
+NCBIGene:55768	NGLY1	None	None	OMIM:615273	NGLY1-deficiency
+NCBIGene:55768	NGLY1	BFO:0000050	is part of	GO:0005829	cytosol

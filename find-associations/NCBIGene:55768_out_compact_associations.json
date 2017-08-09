@@ -1,0 +1,44 @@
+{
+    "associations": null,
+    "compact_associations": [
+        {
+            "objects": [
+                "GO:0046872",
+                "GO:0005515"
+            ],
+            "relation": "RO:0002327",
+            "subject": "NCBIGene:55768"
+        },
+        {
+            "objects": [
+                "GO:0006457",
+                "KEGG-path:map04141",
+                "GO:0006517",
+                "REACT:R-HSA-532668"
+            ],
+            "relation": "RO:0002331",
+            "subject": "NCBIGene:55768"
+        },
+        {
+            "objects": [
+                "OMIM:615273"
+            ],
+            "relation": null,
+            "subject": "NCBIGene:55768"
+        },
+        {
+            "objects": [
+                "GO:0005737",
+                "GO:0005634",
+                "GO:0005829"
+            ],
+            "relation": "BFO:0000050",
+            "subject": "NCBIGene:55768"
+        }
+    ],
+    "facet_counts": {},
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": null,
+    "start": null
+}

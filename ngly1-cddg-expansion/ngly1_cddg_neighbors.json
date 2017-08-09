@@ -1,0 +1,765 @@
+{
+    "edges": [
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "OMIM:615273",
+            "pred": "equivalentClass",
+            "sub": "DOID:0060728"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "lbl": [
+                    "isDefinedBy"
+                ]
+            },
+            "obj": "OBO:upheno/monarch.owl",
+            "pred": "isDefinedBy",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN226822"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN206450"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN226822"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN206450"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "DOID:0050570",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "OMIM:615273",
+            "pred": "equivalentClass",
+            "sub": "DOID:0060728"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "DOID:0050570",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeTarget": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "OMIM:615273",
+            "pred": "equivalentClass",
+            "sub": "DOID:0060728"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "UMLS:C3808991",
+            "pred": "equivalentClass",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "in_subset"
+                ],
+                "owlType": [
+                    "Annotation"
+                ]
+            },
+            "obj": "Orphanet:377788",
+            "pred": "OIO:inSubset",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://www.orpha.net/ORDO/Orphanet_404454"
+                ],
+                "lbl": [
+                    "isDefinedBy"
+                ]
+            },
+            "obj": "OBO:upheno/monarch.owl",
+            "pred": "isDefinedBy",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN206450"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "Orphanet:404454",
+            "pred": "equivalentClass",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "DOID:0050570",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "lbl": [
+                    "isDefinedBy"
+                ]
+            },
+            "obj": "OBO:upheno/monarch.owl",
+            "pred": "isDefinedBy",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "DOID:0050570",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN226822"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "equivalentClass"
+                ]
+            },
+            "obj": "Orphanet:404454",
+            "pred": "equivalentClass",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/UMLS_C3808991"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN206450"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:91088",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "lbl": [
+                    "isDefinedBy"
+                ]
+            },
+            "obj": "OBO:upheno/monarch.owl",
+            "pred": "isDefinedBy",
+            "sub": "OMIM:615273"
+        },
+        {
+            "meta": {
+                "equivalentOriginalNodeSource": [
+                    "http://purl.obolibrary.org/obo/DOID_0060728"
+                ],
+                "equivalentOriginalNodeTarget": [
+                    "http://purl.obolibrary.org/obo/UMLS_CN226822"
+                ],
+                "isDefinedBy": [
+                    "http://purl.obolibrary.org/obo/upheno/monarch.owl"
+                ],
+                "lbl": [
+                    "subClassOf"
+                ]
+            },
+            "obj": "Orphanet:183763",
+            "pred": "subClassOf",
+            "sub": "OMIM:615273"
+        }
+    ],
+    "meta": {},
+    "nodes": [
+        {
+            "id": "OBO:upheno/monarch.owl",
+            "lbl": null,
+            "meta": {
+                "types": [
+                    "Ontology",
+                    "cliqueLeader",
+                    "Node"
+                ]
+            }
+        },
+        {
+            "id": "Orphanet:404454",
+            "lbl": null,
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "types": [
+                    "disease",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "DOID:0050570",
+            "lbl": "congenital disorder of glycosylation type I",
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "definition": [
+                    "A congenital disorder of glycosylation involve disrupted synthesis of the lipid-linked oligosaccharide precursor."
+                ],
+                "http://purl.obolibrary.org/obo/IAO_0000115": [
+                    "A congenital disorder of glycosylation involve disrupted synthesis of the lipid-linked oligosaccharide precursor."
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+                    "OMIM:601110",
+                    "OMIM:300884",
+                    "OMIM:615042",
+                    "OMIM:616457",
+                    "OMIM:613661",
+                    "OMIM:612015",
+                    "OMIM:612379",
+                    "Orphanet:79326",
+                    "OMIM:608104",
+                    "OMIM:212065",
+                    "OMIM:608540",
+                    "OMIM:612937",
+                    "OMIM:603147",
+                    "OMIM:602579",
+                    "OMIM:608776",
+                    "OMIM:608799",
+                    "OMIM:300934",
+                    "OMIM:607906",
+                    "OMIM:615596",
+                    "OMIM:608093",
+                    "OMIM:615597",
+                    "OMIM:609180",
+                    "OMIM:614921",
+                    "OMIM:614507",
+                    "OMIM:610768",
+                    "OMIM:607143"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+                    "PMM2-CDG (CDG-1a)",
+                    "MPDU1-CDG (CDG-1f)",
+                    "DPM2-CDG (CDG-1u)",
+                    "SRD5A3-CDG (CDG-1q)",
+                    "ALG6-CDG (CDG-1c)",
+                    "ALG12-CDG (CDG-1g)",
+                    "DPM1-CDG (CDG-1e)",
+                    "ALG11-CDG (CDG-1p)",
+                    "DOLK-CDG (CDG-1m)",
+                    "DPAGT1-CDG (CDG-1j)",
+                    "MPI-CDG (CDG-1b)",
+                    "ALG3-CDG (CDG-1d)",
+                    "ALG1-CDG (CDG-1k)",
+                    "ALG2-CDG (CDG-1i)",
+                    "ALG8-CDG (CDG-1h)",
+                    "RFT1-CDG (CDG-1n)",
+                    "ALG9-CDG (CDG-1l)",
+                    "DPM3-CDG (CDG-1o)"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace": [
+                    "mondo"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#id": [
+                    "DOID:0050570"
+                ],
+                "http://www.w3.org/2000/01/rdf-schema#comment": [
+                    "OMIM mapping confirmed by DO. [SN]."
+                ],
+                "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "congenital disorder of glycosylation type I"
+                ],
+                "synonym": [
+                    "PMM2-CDG (CDG-1a)",
+                    "MPDU1-CDG (CDG-1f)",
+                    "DPM2-CDG (CDG-1u)",
+                    "SRD5A3-CDG (CDG-1q)",
+                    "ALG6-CDG (CDG-1c)",
+                    "ALG12-CDG (CDG-1g)",
+                    "DPM1-CDG (CDG-1e)",
+                    "ALG11-CDG (CDG-1p)",
+                    "DOLK-CDG (CDG-1m)",
+                    "DPAGT1-CDG (CDG-1j)",
+                    "MPI-CDG (CDG-1b)",
+                    "ALG3-CDG (CDG-1d)",
+                    "ALG1-CDG (CDG-1k)",
+                    "ALG2-CDG (CDG-1i)",
+                    "ALG8-CDG (CDG-1h)",
+                    "RFT1-CDG (CDG-1n)",
+                    "ALG9-CDG (CDG-1l)",
+                    "DPM3-CDG (CDG-1o)"
+                ],
+                "types": [
+                    "disease",
+                    "cliqueLeader",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "DOID:0060728",
+            "lbl": null,
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "types": [
+                    "disease",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "OMIM:615273",
+            "lbl": "NGLY1-deficiency",
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "definition": [
+                    "A carbohydrate metabolic disorder that has_material_basis_in homozygous or compound heterozygous mutation in the NGLY1 gene on chromosome 1p24. It is characterized by global developmental delay, hypotonia, abnormal involuntary movements, and alacrima or poor tear production."
+                ],
+                "http://purl.obolibrary.org/obo/IAO_0000115": [
+                    "A carbohydrate metabolic disorder that has_material_basis_in homozygous or compound heterozygous mutation in the NGLY1 gene on chromosome 1p24. It is characterized by global developmental delay, hypotonia, abnormal involuntary movements, and alacrima or poor tear production."
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasDbXref": [
+                    "DOID:0060728",
+                    "Orphanet:404454",
+                    "UMLS:C3808991",
+                    "OMIM:615273",
+                    "ICD10:E77.8"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+                    "NGLY1-CDDG",
+                    "deficiency of N-glycanase 1",
+                    "NGLY1 deficiency",
+                    "congenital disorder of glycosylation type Iv",
+                    "congenital disorder of deglycosylation"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace": [
+                    "mondo"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym": [
+                    "Cdg Iv",
+                    "Congenital Disorder of Glycosylation, Type Iv, Formerly",
+                    "Cdg Iv, Formerly",
+                    "Congenital Disorder of Glycosylation, Type Iv",
+                    "CONGENITAL DISORDER OF DEGLYCOSYLATION; CDDG",
+                    "CDDG"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#id": [
+                    "OMIM:615273"
+                ],
+                "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "NGLY1-deficiency"
+                ],
+                "synonym": [
+                    "NGLY1-CDDG",
+                    "Cdg Iv",
+                    "Congenital Disorder of Glycosylation, Type Iv, Formerly",
+                    "Cdg Iv, Formerly",
+                    "Congenital Disorder of Glycosylation, Type Iv",
+                    "CONGENITAL DISORDER OF DEGLYCOSYLATION; CDDG",
+                    "deficiency of N-glycanase 1",
+                    "NGLY1 deficiency",
+                    "CDDG",
+                    "congenital disorder of glycosylation type Iv",
+                    "congenital disorder of deglycosylation"
+                ],
+                "types": [
+                    "disease",
+                    "cliqueLeader",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "Orphanet:183763",
+            "lbl": "Rare genetic intellectual disability with developmental anomaly",
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace": [
+                    "mondo"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#id": [
+                    "Orphanet:183763"
+                ],
+                "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "Rare genetic intellectual disability with developmental anomaly"
+                ],
+                "types": [
+                    "disease",
+                    "cliqueLeader",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "Orphanet:377788",
+            "lbl": null,
+            "meta": {
+                "types": [
+                    "cliqueLeader",
+                    "Node"
+                ]
+            }
+        },
+        {
+            "id": "UMLS:C3808991",
+            "lbl": null,
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "types": [
+                    "disease",
+                    "Node",
+                    "Class"
+                ]
+            }
+        },
+        {
+            "id": "Orphanet:91088",
+            "lbl": "Other metabolic disease",
+            "meta": {
+                "category": [
+                    "disease"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace": [
+                    "mondo"
+                ],
+                "http://www.geneontology.org/formats/oboInOwl#id": [
+                    "Orphanet:91088"
+                ],
+                "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "Other metabolic disease"
+                ],
+                "types": [
+                    "disease",
+                    "cliqueLeader",
+                    "Node",
+                    "Class"
+                ]
+            }
+        }
+    ]
+}

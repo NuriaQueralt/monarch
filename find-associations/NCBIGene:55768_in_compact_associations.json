@@ -1,0 +1,52 @@
+{
+    "associations": null,
+    "compact_associations": [
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": "Coriell:GM25340"
+        },
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": ":.well-known/genid/person-GM25990"
+        },
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": ":.well-known/genid/person-3200-1"
+        },
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": "Coriell:GM25990"
+        },
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": ":.well-known/genid/person-3199-1"
+        },
+        {
+            "objects": [
+                "NCBIGene:55768"
+            ],
+            "relation": null,
+            "subject": ":.well-known/genid/person-3213-1"
+        }
+    ],
+    "facet_counts": {},
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": null,
+    "start": null
+}

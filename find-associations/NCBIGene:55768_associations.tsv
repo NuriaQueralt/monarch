@@ -1,0 +1,21 @@
+node_queried_id	node_queried_label	relation_id	relation_label	node_associated_id	node_associated_label
+NCBIGene:55768	NGLY1	RO:0002331	involved in	REACT:R-HSA-532668	N-glycan trimming in the ER and Calnexin/Calreticulin cycle
+NCBIGene:55768	NGLY1			OMIM:615273	NGLY1-deficiency
+NCBIGene:55768	NGLY1	RO:0002331	involved in	KEGG-path:map04141	Protein processing in endoplasmic reticulum
+NCBIGene:55768	NGLY1	BFO:0000050	is part of	GO:0005829	cytosol
+NCBIGene:55768	NGLY1	RO:0002327	enables	GO:0005515	protein binding
+NCBIGene:55768	NGLY1	RO:0002331	involved in	GO:0006457	protein folding
+NCBIGene:55768	NGLY1	BFO:0000050	is part of	GO:0005737	cytoplasm
+NCBIGene:55768	NGLY1	RO:0002327	enables	GO:0046872	metal ion binding
+NCBIGene:55768	NGLY1	BFO:0000050	is part of	GO:0005634	nucleus
+NCBIGene:55768	NGLY1	RO:0002331	involved in	GO:0006517	protein deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-GM25990	affected female proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3200-1	affected male proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3213-1	affected female proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3199-1	affected male proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-GM25990	affected female proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3199-1	affected male proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3213-1	affected female proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			:.well-known/genid/person-3200-1	affected male proband with Congenital disorder of deglycosylation
+NCBIGene:55768	NGLY1			Coriell:GM25990	NIGMS-GM25990
+NCBIGene:55768	NGLY1			Coriell:GM25340	NIGMS-GM25340

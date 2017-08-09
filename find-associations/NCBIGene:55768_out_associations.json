@@ -1,0 +1,1590 @@
+{
+    "associations": [
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "ECO:0000304",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:431a40f1d20afbb9e4c94aabb82bd8f2a7053342"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:431a40f1d20afbb9e4c94aabb82bd8f2a7053342"
+                    },
+                    {
+                        "obj": "REACT:R-HSA-532668",
+                        "pred": "RO:0002331",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "REACT:R-HSA-532668",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:431a40f1d20afbb9e4c94aabb82bd8f2a7053342"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "ECO:0000304",
+                        "lbl": "traceable author statement used in manual assertion"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "MONARCH:431a40f1d20afbb9e4c94aabb82bd8f2a7053342",
+                        "lbl": null
+                    },
+                    {
+                        "id": "REACT:R-HSA-532668",
+                        "lbl": "N-glycan trimming in the ER and Calnexin/Calreticulin cycle"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "7b9b7ffd-9e85-494e-8f49-e5fbb7b7d508",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "REACT:R-HSA-532668",
+                "label": "N-glycan trimming in the ER and Calnexin/Calreticulin cycle",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/reactome.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002331",
+                "label": "involved in",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/genoGM25347",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3200-1"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": "ClinVarVariant:126423"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0004-610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25990"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "GENO:0000840",
+                        "sub": "ClinVarVariant:50962"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/person-3200-1"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/OMIM610661-615273VL"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3200-1",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:42d05e731935a651eaf999c2aeb046987f01cca7"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:a78544aa0feaec55807c289ba3d6aedadb69dbd8"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25340",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3199-1"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/person-3199-1"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": ":.well-known/genid/406885-404454VL"
+                    },
+                    {
+                        "obj": ":.well-known/genid/406885-404454VL",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:665c1d3fbfc3abb0c5dc366dba0731358265d0f2"
+                    },
+                    {
+                        "obj": ":.well-known/genid/OMIM610661-615273VL",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:980debcc2bf23bbd566978b66e42e8d7034e0df5"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:980debcc2bf23bbd566978b66e42e8d7034e0df5"
+                    },
+                    {
+                        "obj": "OMIM:610661.0005",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3199-1",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:4d8303fb4655006e8df2cb50e32740b91d6c3e65"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:42d05e731935a651eaf999c2aeb046987f01cca7"
+                    },
+                    {
+                        "obj": "OMIM:610661.0004",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0004-610661.0005"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/person-3213-1"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002607",
+                        "sub": ":.well-known/genid/KEGG-hsa55768-OMIM615273VL"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:8ece42278dc99592834ea5e667d42545d79f409a"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-GM25990",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:a78544aa0feaec55807c289ba3d6aedadb69dbd8"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25347"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0001"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0002"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:665c1d3fbfc3abb0c5dc366dba0731358265d0f2"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": ":.well-known/genid/OMIM610661-615273VL"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0003"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "GENO:0000840",
+                        "sub": "ClinVarVariant:126423"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/person-GM25990"
+                    },
+                    {
+                        "obj": "ECO:0000322",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:665c1d3fbfc3abb0c5dc366dba0731358265d0f2"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:8a568df7358124fda2f7fdd2cead58e43c25a34c"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "RO:0002200",
+                        "sub": ":.well-known/genid/406885-404454VL"
+                    },
+                    {
+                        "obj": "OMIM:610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0003"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:4d8303fb4655006e8df2cb50e32740b91d6c3e65"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "GENO:0000840",
+                        "sub": "ClinVarVariant:126424"
+                    },
+                    {
+                        "obj": "ECO:0000220",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:980debcc2bf23bbd566978b66e42e8d7034e0df5"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": ":.well-known/genid/KEGG-hsa55768-OMIM615273VL"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25389",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-3213-1"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0001-610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25340"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0005"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000408",
+                        "sub": "OMIM:610661.0004"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": "ClinVarVariant:126424"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": "ClinVarVariant:50962"
+                    },
+                    {
+                        "obj": ":.well-known/genid/genoGM25990",
+                        "pred": "GENO:0000222",
+                        "sub": ":.well-known/genid/person-GM25990"
+                    },
+                    {
+                        "obj": ":.well-known/genid/person-3213-1",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:8ece42278dc99592834ea5e667d42545d79f409a"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": "ClinVarVariant:50961"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "GENO:0000840",
+                        "sub": "ClinVarVariant:126422"
+                    },
+                    {
+                        "obj": ":.well-known/genid/KEGG-hsa55768-OMIM615273VL",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:8a568df7358124fda2f7fdd2cead58e43c25a34c"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "GENO:0000840",
+                        "sub": "ClinVarVariant:50961"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "GENO:0000418",
+                        "sub": "ClinVarVariant:126422"
+                    },
+                    {
+                        "obj": "OMIM:610661.0002",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0002"
+                    },
+                    {
+                        "obj": ":.well-known/genid/610661.0003",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/genoGM25389"
+                    },
+                    {
+                        "obj": "OMIM:610661.0001",
+                        "pred": "GENO:0000382",
+                        "sub": ":.well-known/genid/610661.0001-610661.0002"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": ":.well-known/genid/person-3199-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": "ClinVarVariant:126423",
+                        "lbl": "NM_001145294.1(NGLY1):c.1079_1081delGAA (p.Arg360del)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3213-1",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0004-610661.0005",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T)"
+                    },
+                    {
+                        "id": "MONARCH:a78544aa0feaec55807c289ba3d6aedadb69dbd8",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ClinVarVariant:50961",
+                        "lbl": "NM_018297.3(NGLY1):c.1891delC (p.Gln631Serfs)"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0001-610661.0002",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC)"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-GM25990",
+                        "lbl": "affected female proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": "OMIM:610661.0002",
+                        "lbl": "NGLY1, ARG401TER"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0002",
+                        "lbl": "NGLY1(ARG401TER)"
+                    },
+                    {
+                        "id": "ECO:0000322",
+                        "lbl": "imported manually asserted information used in automatic assertion"
+                    },
+                    {
+                        "id": "MONARCH:665c1d3fbfc3abb0c5dc366dba0731358265d0f2",
+                        "lbl": null
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25347",
+                        "lbl": "NGLY1(ARG401TER) [GM25347]"
+                    },
+                    {
+                        "id": "MONARCH:8ece42278dc99592834ea5e667d42545d79f409a",
+                        "lbl": null
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25340",
+                        "lbl": "NGLY1;NGLY1(ARG401TER;c.1891delC) [GM25340]"
+                    },
+                    {
+                        "id": ":.well-known/genid/person-3200-1",
+                        "lbl": "affected male proband with Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": "MONARCH:980debcc2bf23bbd566978b66e42e8d7034e0df5",
+                        "lbl": null
+                    },
+                    {
+                        "id": "OMIM:610661.0003",
+                        "lbl": "NGLY1, 1-BP DUP, 1370G"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "ClinVarVariant:126424",
+                        "lbl": "NM_001145293.1(NGLY1):c.1570C>T (p.Arg524Ter)"
+                    },
+                    {
+                        "id": "MONARCH:8a568df7358124fda2f7fdd2cead58e43c25a34c",
+                        "lbl": null
+                    },
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": ":.well-known/genid/KEGG-hsa55768-OMIM615273VL",
+                        "lbl": "some variant of K01456 peptide-N4-(N-acetyl-beta-glucosaminyl)asparagine amidase [EC:3.5.1.52] | (RefSeq) NGLY1"
+                    },
+                    {
+                        "id": "OMIM:610661.0001",
+                        "lbl": "NGLY1, 1-BP DEL, 1891C"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25990",
+                        "lbl": "NGLY1;NGLY1(3-BP DEL  1205 TTC;ARG542TER  c.1570C>T) [GM25990]"
+                    },
+                    {
+                        "id": "ECO:0000220",
+                        "lbl": "sequencing assay evidence"
+                    },
+                    {
+                        "id": ":.well-known/genid/610661.0003",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER)"
+                    },
+                    {
+                        "id": "MONARCH:4d8303fb4655006e8df2cb50e32740b91d6c3e65",
+                        "lbl": null
+                    },
+                    {
+                        "id": ":.well-known/genid/OMIM610661-615273VL",
+                        "lbl": "some variant of NGLY1 that causes Congenital disorder of deglycosylation"
+                    },
+                    {
+                        "id": ":.well-known/genid/genoGM25389",
+                        "lbl": "NGLY1(c.1370dupG  R458FsTER) [GM25389]"
+                    },
+                    {
+                        "id": ":.well-known/genid/406885-404454VL",
+                        "lbl": "some variant of NGLY1 that is a disease-causing germline mutation(s) (loss of function) in Alacrimia-choreoathetosis-liver dysfunction syndrome"
+                    },
+                    {
+                        "id": "ClinVarVariant:126422",
+                        "lbl": "NM_018297.3(NGLY1):c.1370dupG (p.Arg458Lysfs)"
+                    },
+                    {
+                        "id": "ClinVarVariant:50962",
+                        "lbl": "NM_018297.3(NGLY1):c.1201A>T (p.Arg401Ter)"
+                    },
+                    {
+                        "id": "OMIM:610661.0005",
+                        "lbl": "NGLY1, ARG542TER"
+                    },
+                    {
+                        "id": "MONARCH:42d05e731935a651eaf999c2aeb046987f01cca7",
+                        "lbl": null
+                    },
+                    {
+                        "id": "OMIM:610661.0004",
+                        "lbl": "NGLY1, 3-BP DEL, 1205TTC"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "af89e914-68e5-4b3f-8d02-ee6d214a8a19",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/kegg.ttl",
+                "http://data.monarchinitiative.org/ttl/orphanet.ttl",
+                "https://data.monarchinitiative.org/ttl/omim.ttl",
+                "http://data.monarchinitiative.org/ttl/coriell.ttl",
+                "http://data.monarchinitiative.org/ttl/clinvar.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": null,
+                "label": null,
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": ":.well-known/genid/NCBIGene55768product",
+                        "pred": "RO:0002205",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "KEGG-path:map04141",
+                        "pred": "RO:0002331",
+                        "sub": ":.well-known/genid/NCBIGene55768product"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "KEGG-path:map04141",
+                        "lbl": "Protein processing in endoplasmic reticulum"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": ":.well-known/genid/NCBIGene55768product",
+                        "lbl": null
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "ab5c5681-ac35-4726-842e-cda2a1c72db7",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "KEGG-path:map04141",
+                "label": "Protein processing in endoplasmic reticulum",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "https://data.monarchinitiative.org/ttl/ctd.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002331",
+                "label": "involved in",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "ECO:0000304",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    },
+                    {
+                        "obj": "ECO:0000318",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    },
+                    {
+                        "obj": "REACT:R-HSA-8850594",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    },
+                    {
+                        "obj": "GO:0005829",
+                        "pred": "BFO:0000050",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "GO_REF:0000033",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    },
+                    {
+                        "obj": "GO:0005829",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "ECO:0000304",
+                        "lbl": "traceable author statement used in manual assertion"
+                    },
+                    {
+                        "id": "MONARCH:f3fd59ce099c0e1c18def76ed26c245b9f385388",
+                        "lbl": null
+                    },
+                    {
+                        "id": "REACT:R-HSA-8850594",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000318",
+                        "lbl": "biological aspect of ancestor evidence used in manual assertion"
+                    },
+                    {
+                        "id": "GO_REF:0000033",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "GO:0005829",
+                        "lbl": "cytosol"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "5dc9e10a-3e51-484f-8465-ad5c90507307",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0005829",
+                "label": "cytosol",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "REACT:R-HSA-8850594",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                },
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "GO_REF:0000033",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "BFO:0000050",
+                "label": "is part of",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "PMID:25416956",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593"
+                    },
+                    {
+                        "obj": "PMID:15358861",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593"
+                    },
+                    {
+                        "obj": "GO:0005515",
+                        "pred": "RO:0002327",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593"
+                    },
+                    {
+                        "obj": "GO:0005515",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593"
+                    },
+                    {
+                        "obj": "ECO:0000353",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:7e7b9207b54437658fd60deba03c5a99ecbd2593",
+                        "lbl": null
+                    },
+                    {
+                        "id": "PMID:25416956",
+                        "lbl": null
+                    },
+                    {
+                        "id": "PMID:15358861",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "GO:0005515",
+                        "lbl": "protein binding"
+                    },
+                    {
+                        "id": "ECO:0000353",
+                        "lbl": "physical interaction evidence used in manual assertion"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "8cc76b39-6347-47e4-a8cd-66d9fb32b32f",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0005515",
+                "label": "protein binding",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "PMID:25416956",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                },
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "PMID:15358861",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002327",
+                "label": "enables",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "ECO:0000304",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:966450122b7930a0b28f4d5608c55bfaab35208e"
+                    },
+                    {
+                        "obj": "REACT:R-HSA-532668",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:966450122b7930a0b28f4d5608c55bfaab35208e"
+                    },
+                    {
+                        "obj": "GO:0006457",
+                        "pred": "RO:0002331",
+                        "sub": "NCBIGene:55768"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:966450122b7930a0b28f4d5608c55bfaab35208e"
+                    },
+                    {
+                        "obj": "GO:0006457",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:966450122b7930a0b28f4d5608c55bfaab35208e"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:966450122b7930a0b28f4d5608c55bfaab35208e",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000304",
+                        "lbl": "traceable author statement used in manual assertion"
+                    },
+                    {
+                        "id": "GO:0006457",
+                        "lbl": "protein folding"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "REACT:R-HSA-532668",
+                        "lbl": "N-glycan trimming in the ER and Calnexin/Calreticulin cycle"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "d71829fb-2943-40a7-b19e-0ee97a4fc362",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0006457",
+                "label": "protein folding",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "REACT:R-HSA-532668",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002331",
+                "label": "involved in",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:cf6192c9b876e8b73b8a5746308cc3c996590a14"
+                    },
+                    {
+                        "obj": "PMID:15358861",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:cf6192c9b876e8b73b8a5746308cc3c996590a14"
+                    },
+                    {
+                        "obj": "ECO:0000314",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:cf6192c9b876e8b73b8a5746308cc3c996590a14"
+                    },
+                    {
+                        "obj": "GO:0005737",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:cf6192c9b876e8b73b8a5746308cc3c996590a14"
+                    },
+                    {
+                        "obj": "GO:0005737",
+                        "pred": "BFO:0000050",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "PMID:15358861",
+                        "lbl": null
+                    },
+                    {
+                        "id": "GO:0005737",
+                        "lbl": "cytoplasm"
+                    },
+                    {
+                        "id": "MONARCH:cf6192c9b876e8b73b8a5746308cc3c996590a14",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000314",
+                        "lbl": "direct assay evidence used in manual assertion"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "5c91a2ae-43d4-414d-a5d1-b0b1387a5cd4",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0005737",
+                "label": "cytoplasm",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "PMID:15358861",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "BFO:0000050",
+                "label": "is part of",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:3d961412803b3aecb295c6f42517d292bae2c591"
+                    },
+                    {
+                        "obj": "GO:0046872",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:3d961412803b3aecb295c6f42517d292bae2c591"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:3d961412803b3aecb295c6f42517d292bae2c591"
+                    },
+                    {
+                        "obj": "GO_REF:0000037",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:3d961412803b3aecb295c6f42517d292bae2c591"
+                    },
+                    {
+                        "obj": "GO:0046872",
+                        "pred": "RO:0002327",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:3d961412803b3aecb295c6f42517d292bae2c591",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "GO:0046872",
+                        "lbl": "metal ion binding"
+                    },
+                    {
+                        "id": "GO_REF:0000037",
+                        "lbl": null
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "68ed8bc7-b3cd-4377-8dbd-9c8bd8670e44",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0046872",
+                "label": "metal ion binding",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "GO_REF:0000037",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002327",
+                "label": "enables",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "GO:0005634",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:8a7402d4856c77daa7951088992388590d070662"
+                    },
+                    {
+                        "obj": "GO_REF:0000033",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:8a7402d4856c77daa7951088992388590d070662"
+                    },
+                    {
+                        "obj": "ECO:0000318",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:8a7402d4856c77daa7951088992388590d070662"
+                    },
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:8a7402d4856c77daa7951088992388590d070662"
+                    },
+                    {
+                        "obj": "GO:0005634",
+                        "pred": "BFO:0000050",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "ECO:0000318",
+                        "lbl": "biological aspect of ancestor evidence used in manual assertion"
+                    },
+                    {
+                        "id": "GO_REF:0000033",
+                        "lbl": null
+                    },
+                    {
+                        "id": "MONARCH:8a7402d4856c77daa7951088992388590d070662",
+                        "lbl": null
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    },
+                    {
+                        "id": "GO:0005634",
+                        "lbl": "nucleus"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "05c0834d-031e-46c7-96ed-679a264cfb0e",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0005634",
+                "label": "nucleus",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "GO_REF:0000033",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "BFO:0000050",
+                "label": "is part of",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "NCBIGene:55768",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:b88602ff81957469b90c4354cda719ece61671f9"
+                    },
+                    {
+                        "obj": "GO_REF:0000033",
+                        "pred": "dc:source",
+                        "sub": "MONARCH:b88602ff81957469b90c4354cda719ece61671f9"
+                    },
+                    {
+                        "obj": "GO:0006517",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:b88602ff81957469b90c4354cda719ece61671f9"
+                    },
+                    {
+                        "obj": "ECO:0000318",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:b88602ff81957469b90c4354cda719ece61671f9"
+                    },
+                    {
+                        "obj": "GO:0006517",
+                        "pred": "RO:0002331",
+                        "sub": "NCBIGene:55768"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:b88602ff81957469b90c4354cda719ece61671f9",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000318",
+                        "lbl": "biological aspect of ancestor evidence used in manual assertion"
+                    },
+                    {
+                        "id": "GO_REF:0000033",
+                        "lbl": null
+                    },
+                    {
+                        "id": "GO:0006517",
+                        "lbl": "protein deglycosylation"
+                    },
+                    {
+                        "id": "NCBIGene:55768",
+                        "lbl": "NGLY1"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "b449c1f2-570d-42cb-943c-dad3ca0f111f",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "GO:0006517",
+                "label": "protein deglycosylation",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/go.ttl"
+            ],
+            "publications": [
+                {
+                    "categories": null,
+                    "consider": null,
+                    "deprecated": null,
+                    "description": null,
+                    "id": "GO_REF:0000033",
+                    "label": null,
+                    "replaced_by": null,
+                    "synonyms": null,
+                    "types": null
+                }
+            ],
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002331",
+                "label": "involved in",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "NCBIGene:55768",
+                "label": "NGLY1",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": "NCBITaxon:9606",
+                    "label": "Homo sapiens"
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        }
+    ],
+    "compact_associations": null,
+    "facet_counts": {
+        "object_closure": {
+            "BFO:0000001": 73,
+            "BFO:0000002": 68,
+            "BFO:0000003": 31,
+            "BFO:0000004": 23,
+            "BFO:0000015": 10,
+            "BFO:0000020": 12,
+            "BFO:0000031": 41,
+            "BFO:0000040": 23,
+            "GENO:0000014": 31,
+            "GENO:0000701": 31,
+            "IAO:0000030": 10,
+            "OBO:CARO_0000006": 21,
+            "SO:0000001": 31,
+            "SO:0000110": 31,
+            "SO:0000704": 31,
+            "SO:0001217": 31,
+            "SO:0001411": 31,
+            "UBERON:0000061": 17,
+            "UBERON:0000064": 10,
+            "UBERON:0000465": 17,
+            "UBERON:0001062": 20,
+            "UBERON:0010000": 17,
+            "http://uri.neuinfo.org/nif/nifstd/birnlex_16": 10,
+            "http://uri.neuinfo.org/nif/nifstd/birnlex_6": 20,
+            "owl:Thing": 73
+        },
+        "subject_taxon_label": {
+            "Homo sapiens": 73
+        }
+    },
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": null,
+    "start": null
+}

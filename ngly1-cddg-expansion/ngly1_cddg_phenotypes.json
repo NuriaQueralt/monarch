@@ -1,0 +1,832 @@
+{
+    "associations": [
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:fdfd1af7aeeb2c9513c7d42f3fb35ad2ba3bdb76"
+                    },
+                    {
+                        "obj": "HP:0004305",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:fdfd1af7aeeb2c9513c7d42f3fb35ad2ba3bdb76"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:fdfd1af7aeeb2c9513c7d42f3fb35ad2ba3bdb76"
+                    },
+                    {
+                        "obj": "HP:0004305",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    },
+                    {
+                        "id": "MONARCH:fdfd1af7aeeb2c9513c7d42f3fb35ad2ba3bdb76",
+                        "lbl": null
+                    },
+                    {
+                        "id": "HP:0004305",
+                        "lbl": "Involuntary movements"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "bf79bed7-6765-4f63-bd6d-ee95f3c95622",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0004305",
+                "label": "Involuntary movements",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "HP:0001773",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:cb5b88b6761c075afea04002c47d87d9241120fd"
+                    },
+                    {
+                        "obj": "HP:0001773",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:cb5b88b6761c075afea04002c47d87d9241120fd"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:cb5b88b6761c075afea04002c47d87d9241120fd"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "MONARCH:cb5b88b6761c075afea04002c47d87d9241120fd",
+                        "lbl": null
+                    },
+                    {
+                        "id": "HP:0001773",
+                        "lbl": "Short foot"
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "5c7808a9-fd92-4e45-a1ab-ee7efd54530b",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0001773",
+                "label": "Short foot",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "HP:0012448",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:44a3e204d1f7143f8182e78ce0522f388f36fcc8"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:44a3e204d1f7143f8182e78ce0522f388f36fcc8"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:44a3e204d1f7143f8182e78ce0522f388f36fcc8"
+                    },
+                    {
+                        "obj": "HP:0012448",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "HP:0012448",
+                        "lbl": "Delayed myelination"
+                    },
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "MONARCH:44a3e204d1f7143f8182e78ce0522f388f36fcc8",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "1979c9c7-9340-4847-8d2e-4d2a6c461ee6",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0012448",
+                "label": "Delayed myelination",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:44bdcc561cf703889ad438c66a1761c47d50e2ed"
+                    },
+                    {
+                        "obj": "HP:0002910",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:44bdcc561cf703889ad438c66a1761c47d50e2ed"
+                    },
+                    {
+                        "obj": "HP:0002910",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:44bdcc561cf703889ad438c66a1761c47d50e2ed"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "MONARCH:44bdcc561cf703889ad438c66a1761c47d50e2ed",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    },
+                    {
+                        "id": "HP:0002910",
+                        "lbl": "Elevated hepatic transaminases"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "977490fd-c4d2-4836-bf9e-b0772b9890a3",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0002910",
+                "label": "Elevated hepatic transaminases",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "HP:0001252",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:422af7cbcce6710b5555e7f94eae6942eb521565"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:422af7cbcce6710b5555e7f94eae6942eb521565"
+                    },
+                    {
+                        "obj": "HP:0001252",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:422af7cbcce6710b5555e7f94eae6942eb521565"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "HP:0001252",
+                        "lbl": "Muscular hypotonia"
+                    },
+                    {
+                        "id": "MONARCH:422af7cbcce6710b5555e7f94eae6942eb521565",
+                        "lbl": null
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "9c99b6a2-d7c1-4089-bbdb-a51c59979198",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0001252",
+                "label": "Muscular hypotonia",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "HP:0001263",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:f826448dab391c1bf811a7980418a48aa33d7501"
+                    },
+                    {
+                        "obj": "HP:0001263",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:f826448dab391c1bf811a7980418a48aa33d7501"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:f826448dab391c1bf811a7980418a48aa33d7501"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "HP:0001263",
+                        "lbl": "Global developmental delay"
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    },
+                    {
+                        "id": "MONARCH:f826448dab391c1bf811a7980418a48aa33d7501",
+                        "lbl": null
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "13767c45-2f72-4cf7-ab89-e968c99aae23",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0001263",
+                "label": "Global developmental delay",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "HP:0200055",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:03256ba1a518efe7f797143ec2f0ced391308717"
+                    },
+                    {
+                        "obj": "HP:0200055",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    },
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:03256ba1a518efe7f797143ec2f0ced391308717"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:03256ba1a518efe7f797143ec2f0ced391308717"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "MONARCH:03256ba1a518efe7f797143ec2f0ced391308717",
+                        "lbl": null
+                    },
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "HP:0200055",
+                        "lbl": "Small hand"
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "12115fdf-1758-4c8d-8599-9521056efcad",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0200055",
+                "label": "Small hand",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        },
+        {
+            "evidence_graph": {
+                "edges": [
+                    {
+                        "obj": "OMIM:615273",
+                        "pred": "OBAN:association_has_subject",
+                        "sub": "MONARCH:b378f878dd5be6a0e9890df1979f22e32a92fd0b"
+                    },
+                    {
+                        "obj": "HP:0009830",
+                        "pred": "OBAN:association_has_object",
+                        "sub": "MONARCH:b378f878dd5be6a0e9890df1979f22e32a92fd0b"
+                    },
+                    {
+                        "obj": "ECO:0000501",
+                        "pred": "RO:0002558",
+                        "sub": "MONARCH:b378f878dd5be6a0e9890df1979f22e32a92fd0b"
+                    },
+                    {
+                        "obj": "HP:0009830",
+                        "pred": "RO:0002200",
+                        "sub": "OMIM:615273"
+                    }
+                ],
+                "nodes": [
+                    {
+                        "id": "OMIM:615273",
+                        "lbl": "NGLY1-deficiency"
+                    },
+                    {
+                        "id": "HP:0009830",
+                        "lbl": "Peripheral neuropathy"
+                    },
+                    {
+                        "id": "ECO:0000501",
+                        "lbl": "evidence used in automatic assertion"
+                    },
+                    {
+                        "id": "MONARCH:b378f878dd5be6a0e9890df1979f22e32a92fd0b",
+                        "lbl": null
+                    }
+                ]
+            },
+            "evidence_types": null,
+            "id": "55c421d3-b1c8-4d77-8928-9274c4988e81",
+            "object": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "HP:0009830",
+                "label": "Peripheral neuropathy",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "object_extension": null,
+            "provided_by": [
+                "http://data.monarchinitiative.org/ttl/hpoa.ttl"
+            ],
+            "publications": null,
+            "qualifiers": null,
+            "relation": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "RO:0002200",
+                "label": "has phenotype",
+                "replaced_by": null,
+                "synonyms": null,
+                "types": null
+            },
+            "slim": null,
+            "subject": {
+                "categories": null,
+                "consider": null,
+                "deprecated": null,
+                "description": null,
+                "id": "OMIM:615273",
+                "label": "NGLY1-deficiency",
+                "replaced_by": null,
+                "synonyms": null,
+                "taxon": {
+                    "id": null,
+                    "label": null
+                },
+                "types": null,
+                "xrefs": null
+            },
+            "subject_extension": null,
+            "type": null
+        }
+    ],
+    "compact_associations": null,
+    "facet_counts": {
+        "object_closure": {
+            "BFO:0000001": 8,
+            "BFO:0000002": 8,
+            "BFO:0000020": 8,
+            "BFO:0000031": 8,
+            "GO:0008150PHENOTYPE": 3,
+            "GO:0044699PHENOTYPE": 2,
+            "HP:0000001": 8,
+            "HP:0000118": 8,
+            "HP:0000707": 4,
+            "HP:0000924": 2,
+            "HP:0012638": 3,
+            "IAO:0000030": 8,
+            "IAO:0000144": 8,
+            "IAO:0000300": 8,
+            "MP:0000001": 8,
+            "MP:0003631": 4,
+            "MP:0003633": 3,
+            "SEPIO:0000013": 8,
+            "SEPIO:0000129": 8,
+            "UBERON:0001016PHENOTYPE": 4,
+            "UBERON:0002204PHENOTYPE": 4,
+            "UPHENO:0001001": 8,
+            "UPHENO:0001002": 8,
+            "ZP:0013928": 3,
+            "owl:Thing": 8
+        },
+        "subject_taxon_label": {}
+    },
+    "facet_pivot": null,
+    "numFound": null,
+    "objects": [
+        "HP:0001252",
+        "HP:0001263",
+        "HP:0001773",
+        "HP:0002910",
+        "HP:0004305",
+        "HP:0009830",
+        "HP:0012448",
+        "HP:0200055"
+    ],
+    "start": null
+}

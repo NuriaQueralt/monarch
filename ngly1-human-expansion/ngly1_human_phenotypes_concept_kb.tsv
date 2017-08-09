@@ -1,0 +1,9 @@
+phenotype_id	item	itemLabel	altLabel	itemDesc
+HP:0001252	Q1753547	Hypotonia	Low Muscle Tone|Muscular hypotonia	Abnormally low muscle tone
+HP:0001263	Q1142806	developmental disability		NA
+HP:0001773	Q29019700	Short foot	Hypoplastic feet|Short feet|Small feet	Short foot refers to a foot that is unusually short.
+HP:0002910	Q2448873	Elevated transaminases	Elevated hepatic transaminases	Elevations of the levels of transaminases in the serum.
+HP:0004305	Q2608695	movement disorder	movement disease	human disease
+HP:0009830	Q18556979	peripheral nervous system disease	peripheral neuropathy|peripheral nerve disease	A nervous system disease that affects the peripheral nervous system.
+HP:0012448	Q29643664	Delayed myelination		NA
+HP:0200055	Q29019862	Small hand		NA
